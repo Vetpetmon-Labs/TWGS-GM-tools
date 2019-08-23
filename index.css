@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Microgramma";
+    src: url(microgramma-bold.ttf) format("truetype");
+}
+
+body {
+    background-color: #000000;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: "Microgramma";
+    color: #FFFFFF;
+}
+
+h1 {
+    padding-top: 25vh;
+    padding-bottom: 15vh;
+    font-size: 42px;
+}
+
+button {
+    background-color: #000000;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#background-img img {
+    height: 10vw;
+    width: 100%;
+}
