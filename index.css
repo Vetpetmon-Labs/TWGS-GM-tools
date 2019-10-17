@@ -7,17 +7,19 @@ body {
     background-color: #000000;
     margin: auto;
     text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
-h1, h2, h3, h4, h5, h6, button {
+h1, h2, h3, h4, h5, h6, button, span {
     font-family: "Microgramma";
     color: #FFFFFF;
 }
 
 h1 {
-    padding-top: 25vh;
-    padding-bottom: 15vh;
-    font-size: 42px;
+    padding-top: 14vh;
+    padding-bottom: 8vh;
+    font-size: 38px;
 }
 
 button {
@@ -28,6 +30,36 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#nextturn {
+    background-color: #191919;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#turnsequence, #timeofday, #day, #season, #year {
+    margin-left: 0.8vh;
+}
+
+#calculate {
+    font-family: "Microgramma";
+    color: #FFFFFF;
+    background-color: #191919;
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
 }
