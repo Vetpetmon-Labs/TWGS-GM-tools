@@ -34,7 +34,7 @@ button {
     cursor: pointer;
 }
 
-#nextturn {
+button, #nextturn {
     background-color: #191919;
     border: none;
     padding: 15px 32px;

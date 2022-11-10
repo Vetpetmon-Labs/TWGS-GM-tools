@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TWGS Game Master Tools</title>
+
+        <meta charset="utf-8" />
+        
+        <script type="text/javascript" src="js/eventroller.js"></script>
+        <script type="text/javascript" src="js/cRNG.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <h1>EVENT ROLLER</h1>
+        <h3>USES COMPLEX RNG TO CALCULATE THE EVENTS YOUR PLAYERS FACE IN THE GAME. YOU SHOULD ROLL FOR THE DAY'S SEED FIRST.</h3>
+        <br><br>
+        <span>DAY SEED: </span> <span id="seed"></span><br><br>
+		<button id="createseed" onclick="createseed()">CREATE SEED</button>
+        <br><br>
+        <form>
+        <span>DAY SEED: </span><textarea rows="1" cols="3" id="seedmanual"></textarea> <span> | </span>
+        <span>CHARACTER LUCK: </span><textarea rows="1" cols="3" id="charluck"></textarea>
+        </form>
+		<button id="rollevent" onclick="rollevent()">ROLL EVENT</button>
+        <br><br>
+        <span>EVENT ROLLED:</span><span id="eventrolled"></span><br><br>
+        <button id="nextturn" onclick="nextTurn()">NEXT TURN</button>
+		<h3 id="debug"></h3>
+    </body>
+</html>
